@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+h1{
+    text-align:center;
+    margin:12px 0px;
+}
+.container{
+    min-height:75vh;
+    margin: 15px 0px;
+}
+.container h1{
+    font-family: 'Playfair Display', serif;
+    
+}
+.myForm{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+}
+.myInput{
+    width: 35%;
+    margin: 5px 14px;
+    padding: 5px;
+    font-size: 11px;
+    border: 2px solid #410f37bd;
+    border-radius: 13px;
+    outline:none;
+}
+.btn{
+    padding: 4px;
+    width: 9%;
+    margin: 10px 0px;
+    font-weight: bold;
+    background-color: #b421814a;
+    font-size: 12px;
+    border: 2px solid #7b5f7b;
+    border-radius: 9px;
+    cursor: pointer;
+    outline:none;
+}
